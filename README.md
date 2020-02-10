@@ -1,24 +1,15 @@
 # install-geckodriver
-### How to install geckodriver for Selenium
+### How to install browser drivers for Selenium
 
-**Step 1.** Go to Geckodriver [release page](https://github.com/mozilla/geckodriver/releases/), and define, which is the last version.
-
-**Step 2.** Download latest version of driver.
+**Step 1** Clone that repo.
 ```shell
-wget https://github.com/mozilla/geckodriver/releases/download/v0.xx.x/geckodriver-v0.xx.x-linux64.tar.gz
+git clone https://github.com/Boring-Mind/install-geckodriver
 ```
 
-**Step 3.** Unzip archive
-```shell
-tar -xvzf geckodriver*
-```
+**Step 2** Replace versions of drivers, if you want.
 
-**Step 4.** Add permissions to execute driver
+**Step 3** Run scripts
 ```shell
-sudo chmod +x geckodriver
-```
-
-**Step 5.** Move driver to default location.
-```shell
-sudo mv geckodriver /usr/local/bin/
+. chromedriver.sh
+. geckodriver.sh
 ```

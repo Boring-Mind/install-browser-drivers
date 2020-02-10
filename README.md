@@ -3,7 +3,7 @@
 
 **Step 1** Clone that repo.
 ```shell
-git clone https://github.com/Boring-Mind/install-geckodriver
+git clone https://github.com/Boring-Mind/install-browser-drivers
 ```
 
 **Step 2** Replace versions of drivers, if you want.
